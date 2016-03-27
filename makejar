@@ -1,0 +1,4 @@
+#!/bin/bash
+# makejar -- Makes jar file for Timesheet app.
+
+jar cvfm timesheet.jar META-INF/MANIFEST.MF -C classes .
